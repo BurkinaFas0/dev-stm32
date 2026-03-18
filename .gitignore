@@ -1,0 +1,161 @@
+# Продукты сборки STM32
+*.elf
+*.hex
+*.bin
+*.o
+*.d
+*.map
+*.su
+*.lst
+*.srec
+*.mot
+
+# Папки сборки
+build/
+Build/
+Debug/
+Release/
+cmake-build-*/
+obj/
+Objects/
+Listings/
+output/
+
+# Среды разработки STM32
+Drivers/
+Middlewares/
+**/Drivers/
+**/Middlewares/
+*.uvguix.*
+*.uvoptx
+*.uvprojx
+*.uvguix
+*.uvopt
+*.uvproj
+*.ewd
+*.ewp
+*.eww
+*.icf
+*.jlink
+*.launch
+*.scvd
+DebugConfig/
+ReleaseConfig/
+*.mxproject
+*.sw4stm32
+*.cproject
+*.project
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.vscode-server/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*/
+
+# ML / Data Science
+.ipynb_checkpoints/
+*.pkl
+*.joblib
+*.h5
+*.keras
+*.pb
+*.onnx
+*.tflite
+mlruns/
+lightning_logs/
+wandb/
+checkpoints/
+*.log
+*.tflogs
+
+# Jupyter Notebook
+*.ipynb
+!example.ipynb
+.ipynb_checkpoints/
+
+# Виртуальные окружения
+.env
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.classpath
+.settings/
+
+# Тестовые файлы
+test-*.csv
+test-*.json
+test_data/
+temp_data/
+logs/
+*.tmp
+
+# Документация
+docs/_build/
+documentation/_build/
+
+# Временные файлы
+*.bak
+*.backup
+*.old
+*.orig
+
+# Линковщик и компилятор
+*.crf
+*.br
+*.dep
+*.uvguix
+*.iex
+*.htm
+*.tra
+
+# OpenOCD
+openocd.log
+*.svf
+
+# CubeMX
+.ioc
+mx_loader/
+Drivers/
+Middlewares/
+
+# Артефакты линковки
+*.lnk
+*.xcl
+
+# Дополнительные бинарные файлы
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+*.lib
+*.a
