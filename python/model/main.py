@@ -84,7 +84,7 @@ def plot_results(history, X_test):
     plt.show()
 
 if __name__ == "__main__":
-    # Основной код выполняется только при прямом запускееее
+    # Основной код выполняется только при прямом запуск
     model, history, test_loss, test_acc = train_and_evaluate()
     print(f"\nТочность на тесте: {test_acc:.4f}")
     
