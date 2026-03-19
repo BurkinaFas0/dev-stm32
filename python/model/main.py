@@ -3,11 +3,11 @@ import tensorflow as tf
 import tensorflow as tf
 import matplotlib.pyplot as plt
 
-from model.generate_data.generate_data import generate_data
+from generate_data.generate_data import generate_data
 
 
 
-# Генерируем данные
+# Генерируем данные данные
 X_train, y_train = generate_data(2000)   # данные для обучения модели
 X_test, y_test = generate_data(400)      # Используется только для проверки
                                             # Модель НИКОГДА не видит эти данные во время обучения
